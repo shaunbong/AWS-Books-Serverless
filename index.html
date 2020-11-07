@@ -9,8 +9,18 @@
   </head>
   <body>
     <div class="container">
-      <h1 id="header">DynamoDB Database Link</h1>
-      <button id="get-data-btn" class="btn btn-primary">Get Data</button>
+      <h1 id="header">DynamoDB for Books</h1>
+      <button id="get-books-btn" class="btn btn-primary">Get Books</button>
+      <button id="add-books-btn" class="btn btn-success">Add Books</button>
+      <table class="table table-hover" id="books-table">
+        <thead>
+          <tr>
+            <th scope="col">Author</th>
+            <th scope="col">Title</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
     </div>
   </body>
   <script src="js/main.js"></script>
